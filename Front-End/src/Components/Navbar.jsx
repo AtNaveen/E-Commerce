@@ -3,13 +3,13 @@ import {assets} from '../assets/frontend_assets/assets'
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-   const [visible,setVisible] = useState(true);
+   const [visible,setVisible] = useState(false);
 
   return (
     <div className='flex items-center justify-between py-5 font-medium '>
-      
+      <NavLink to='/'>
       <img src={assets.logo} className='w-36' alt="logo" />
-      
+      </NavLink>
       <ul className='hidden sm:flex gap-5 text-sm' >
 
       <NavLink to='/' className='flex flex-col items-center gap-1' >

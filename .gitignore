@@ -1,0 +1,43 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.vite/
+out/
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Front-End specific
+Front-End/node_modules/
+Front-End/dist/
+Front-End/build/
+
+# Back-End specific
+Back-End/node_modules/
+Back-End/dist/
+Back-End/build/
+
+# Optional lockfile rules (if you want to keep lockfiles, comment these out)
+# package-lock.json
+# yarn.lock
