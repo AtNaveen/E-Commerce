@@ -11,12 +11,14 @@ import Orders from './pages/Orders'
 import PlaceOrder from './pages/PlaceOrder'
 import Navbar from "./Components/Navbar"
 import Footer from "./Components/Footer"
+import SearchBar from "./Components/SearchBar"
 
 function App() {
  
   return (
     <div className="w-7xl m-auto">
       <Navbar />
+      <SearchBar />
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
