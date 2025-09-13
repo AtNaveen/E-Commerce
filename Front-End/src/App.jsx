@@ -17,7 +17,7 @@ import { ToastContainer, toast } from 'react-toastify';
 function App() {
  
   return (
-    <div className="w-7xl m-auto">
+    <div className="px-4 sm:px-[5vw] md:px-[7vm] lg:px-[9vw]">
       <ToastContainer />
       <Navbar />
       <SearchBar />
