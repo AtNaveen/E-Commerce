@@ -8,7 +8,7 @@ import Orders from './pages/Orders'
 import Login from "./compoenets/Login"
  import { ToastContainer } from 'react-toastify';
 
- export const backendUrl = "http://localhost:4000";
+ export const backendUrl = "https://e-commerce-back-end-4sme.onrender.com";
  export const currency = '$';
 
 const App = () => {
